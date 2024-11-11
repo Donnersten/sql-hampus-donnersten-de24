@@ -1,1 +1,2 @@
-# sql-hampus-donnersten-de24
+# SQL course using duckdb
+
