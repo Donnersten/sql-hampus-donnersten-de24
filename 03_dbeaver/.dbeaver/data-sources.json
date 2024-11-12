@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1931a643a31-164f70491bfe00bf": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "jokes.ducksdb",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/hdonnersten/Library/CloudStorage/OneDrive-sti.se/3.SQL/03_dbeaver/jokes.ducksdb",
+				"url": "jdbc:duckdb:/Users/hdonnersten/Library/CloudStorage/OneDrive-sti.se/3.SQL/03_dbeaver/jokes.ducksdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

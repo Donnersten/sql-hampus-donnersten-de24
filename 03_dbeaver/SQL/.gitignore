@@ -1,0 +1,8 @@
+#DBeaver
+.prodject
+.dbeaver
+
+#Duckdb
+*.wal
+
+*.DB_Store
