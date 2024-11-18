@@ -19,7 +19,8 @@ SET
 		WHEN experience_level = 'MI' THEN 'Mid Level'
 		WHEN experience_level = 'EN' THEN 'Entry Level'
 		WHEN experience_level = 'EX' THEN 'Expwert'
+		ELSE experience_level 
 	END ;
-	
+
 SELECT DISTINCT experience_level FROM main.data_jobs;
 SELECT *from main.data_jobs dj;
