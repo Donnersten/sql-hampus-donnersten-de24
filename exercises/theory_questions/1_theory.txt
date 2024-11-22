@@ -1,0 +1,33 @@
+These study questions are good to get an overview of how SQL and relational databases work.
+
+  a) What are the main categories of SQL commands?
+    DDL = Data Defenition Language,
+    DQL = Data Query Language,
+    DML = Data Manipulation Language, 
+    DCL = Data Control Language, 
+    TCL = Tarnsaktion Control Language
+
+  b) Explain the difference between HAVING and WHERE clauses?
+    HAVING = Andvänder man efter en GROUP BY. Båda har samma funktion
+    WHERE = Andväner man innan en GROUP BY. Båda har samma funktion
+
+  c) How to make sure you delete the correct rows?
+    Man SELECT det man vill ändra sp att man ser att men änderar det man vill ändra sen gör man en DELETE 
+
+  d) How do you retrieve unique values in a column?
+    DESTINCT funktionen
+
+  e) What does data transformation mean?
+    Men gör om data till ett nytt tabel för att göra det lättare att läsa. 
+
+  f) How do you create a new row in a table?
+    Insert in to comand 
+
+  g) What happens if you omit the WHERE clause in an UPDATE statement?
+    Kommer att uppdatera all data. 
+
+  h) What happens if you omit the WHERE clause in a DELETE statement?
+    Kommer att uppdatera all data. 
+
+  i) What is a conditional statement in SQL, and can it be used with SELECT?
+    CASE WHEN, Ja den kan andvändas med SELECT. 

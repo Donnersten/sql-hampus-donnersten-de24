@@ -1,0 +1,19 @@
+
+Exercises 1 Glossary
+
+CRUD = Creat,Raad,Update,Delete	
+query = SELECT sats, Hämtar data
+statement = Hela kod raden	fram till ;
+schema = Databas data
+aliasing = Alias/ AS ...	
+projection = Filtrera specefika columner
+selection = Filtrera specefika rader 	
+namespace = main.tabelname. Välja tabel från rätt schema
+SELECT clause = SELECT sats, Hämtar data
+WHERE clause = Används för att filtrera rader i en tabell
+condition = En condition används för att kontrollera om en specifik regel eller ett uttryck
+BETWEEN	= Allt emellan nummer ex. 100 AND 500
+aggregate functions	= COUND,SUM, MIN,MAX,AVG,MEDIAN
+range filtering	= BETWEEN i kombination med >,<,=,>=,<=
+pattern matching = Mönstermatcha ex allt som börjar på A LIKE A%
+list filtering = Innebär att man filtrerar data genom IN funktion. 
