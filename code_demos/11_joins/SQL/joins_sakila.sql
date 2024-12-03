@@ -60,3 +60,4 @@ LEFT JOIN main.city c ON
 LEFT JOIN main.country c2 ON
 	c2.country_id = c.country_id;
 
+

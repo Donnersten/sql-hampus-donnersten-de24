@@ -2,6 +2,7 @@ SELECT	* FROM main.plants p;
 	
 SELECT * FROM main.plant_care pc;
 
+
 SELECT
 	p.plant_id,
 	p.plant_name,
