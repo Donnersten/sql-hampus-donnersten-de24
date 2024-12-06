@@ -1,0 +1,21 @@
+4. Theory questions
+
+These study questions are good to get an overview of how SQL and relational databases work.
+
+  a) What is the difference between INNER JOIN and INTERSECT?
+
+  b) When are the purposes of set operations?
+
+  c) What are the main difference between joins and set operations?
+
+  d) When is set operators used contra logical operators?
+
+  e) How to achieve this using set operations in SQL, where A and B are result sets.
+
+
+
+  f) How to achieve this using set operations in SQL, where A and B are result sets.
+
+
+
+  g) Does joining order matter for three or more tables?

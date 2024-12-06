@@ -19,8 +19,7 @@ SELECT
 	f.title 
 FROM
 	main.actor a
-LEFT JOIN main.film_actor fa ON
-	a.actor_id = fa.actor_id
+LEFT JOIN main.film_actor fa ON a.actor_id = fa.actor_id
 LEFT JOIN main.film f ON f.film_id = fa.film_id ;
 
 --film och kategori
@@ -59,5 +58,4 @@ LEFT JOIN main.city c ON
 	a.city_id = c.city_id
 LEFT JOIN main.country c2 ON
 	c2.country_id = c.country_id;
-
 
