@@ -33,6 +33,7 @@ WHERE a.first_name LIKE '%ANN%';
 --C
 SELECT name, city, country FROM main.customer_list cl;
 
+
 --D
 SELECT
 	c.first_name,
